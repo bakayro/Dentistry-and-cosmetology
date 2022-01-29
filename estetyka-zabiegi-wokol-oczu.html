@@ -1,0 +1,480 @@
+<?php
+
+	ob_start();
+	session_start();
+	
+	include './config.html';
+	include './functions.html';
+	
+	$IS_DEFINED = true;
+
+?>
+
+
+<!DOCTYPE html>
+<html lang="pl-PL">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Zabiegi wokół oczu</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="Grupa EVADA">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./assets/img/favicon/site.webmanifest">
+
+    <link rel="stylesheet" type="text/css" href="./assets/css/font/flaticon.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link href="./assets/css/animate.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+
+    <link href="./assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="estetic-page">
+        <div class="container-wrapper">
+
+            <div class="header__wrapper">
+
+                <!-- BURGER  -->
+                <div class="burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <div class="mobile-menu">
+                    <ul>
+                        <li><a class="active" href="./index.html"><i class="flaticon-home"></i></a></li>
+                        <li><a href="./estetyka-o-mnie.html">O mnie</a></li>
+                        <li><a href="./estetyka.html">Usługi</a></li>
+                        <li><a href="./estetyka-certyfikaty.html">Certyfikaty</a></li>
+                        <li><a href="./estetyka-galeria.html">Galeria</a></li>
+                        <li><a href="./estetyka-kontakty.html">Kontakt</a></li>
+                    </ul>
+                </div>
+
+                <nav class="header__menu">
+                    <ul>
+                        <li><a class="active" href="./index.html"><i class="flaticon-home"></i></a></li>
+                        <li><a href="./estetyka-o-mnie.html">O mnie</a></li>
+                        <li><a href="./estetyka.html">Usługi</a></li>
+                        <li><a href="./estetyka-certyfikaty.html">Certyfikaty</a></li>
+                        <li><a href="./estetyka-galeria.html">Galeria</a></li>
+                        <li><a href="./estetyka-kontakty.html">Kontakt</a></li>
+                    </ul>
+                </nav>
+
+                <div class="header__logo">
+                    <img src="./assets/img/logo.png" alt="main logo">
+                </div>
+
+                <div class="header__fast-contact">
+                    <ul>
+                        <li><a href="./dentystyka.html">Dentystyka</a></li>
+                        <li><a href="#"><i class="flaticon-facebook"></i></a></li>
+                        <li><a href="#"><i class="flaticon-instagram"></i></a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+    </header>
+
+    <!-- MAIN -->
+    <main class="estetic-page">
+
+        <section class="frontpage est-frontpage-4">
+            <div class="container-wrapper">
+
+                <div class="title-wrapper mb30 fadeInDown" data-wow-delay="0.2s">
+                    <h1>Zabiegi wokół oczu</h1>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="section-wrapper">
+            <aside>
+                <ul>
+                    <li>
+                        <a class="anchor-link" data-scroll=".anchor-1" href="#">Rekomendowane zabiegi rewitalizacji
+                            skóry okolicy oczu:</a>
+                        <ul class="sublist">
+                            <li><a lass="anchor-link" data-scroll=".anchor-1-1" href="#">Mezoterapia nctf 135 ha
+                                    filorga</a></li>
+                            <li><a lass="anchor-link" data-scroll=".anchor-1-2" href="#">Nucleofill Eyes Soft Plus -
+                                    biostymulator</a></li>
+                            <li><a lass="anchor-link" data-scroll=".anchor-1-3" href="#">Wskazania</a></li>
+                            <li><a lass="anchor-link" data-scroll=".anchor-1-4" href="#">Osocze bogatopłytkowe</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="anchor-link" data-scroll=".anchor-2" href="#">Rekomendowane zabiegi na cienie, obrzęki
+                            pod oczami oraz
+                            cienie i obrzęki pod oczami</a>
+                        <ul class="sublist">
+                            <li><a lass="anchor-link" data-scroll=".anchor-2-1" href="#">Dolina łez</a></li>
+                            <li><a lass="anchor-link" data-scroll=".anchor-2-2" href="#">TEOSYAL® REDENSITY [II]</a>
+                            </li>
+                            <li><a lass="anchor-link" data-scroll=".anchor-2-3" href="#">Light eyes</a></li>
+                            <li><a lass="anchor-link" data-scroll=".anchor-2-4" href="#">GLOBAL EYECON</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="anchor-link" data-scroll=".anchor-3" href="#">Rekomendowane zabiegi na zmarszczki
+                            mimiczne okolicy oczu i kurzych łapek</a>
+                        <ul class="sublist">
+                            <li><a lass="anchor-link" data-scroll=".anchor-3-1" href="#">Przeciwwskazania do zabiegów
+                                    wokół oczu</a></li>
+                            <li><a lass="anchor-link" data-scroll=".anchor-3-2" href="#">Postępowanie pozabiegowe</a>
+                            </li>
+                            <li><a lass="anchor-link" data-scroll=".anchor-3-3" href="#">Rekonwalescencja</a></li>
+                            <li><a lass="anchor-link" data-scroll=".anchor-3-4" href="#">Przeciwwskazania do zabiegów
+                                    wokół oczu</a></li>
+                            <li><a lass="anchor-link" data-scroll=".anchor-3-5" href="#">Czas zabiegu</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </aside>
+
+            <div class="main-content">
+                <div class="title mb30 wow fadeInDown" data-wow-delay="0.2s">
+                    <h2>Zabiegi wokół oczu</h2>
+                </div>
+
+                <div class="box">
+                    <p>
+                        Skóra w okolicy oczu jest bardzo cienka, ma mało tkanki podskórnej i wymaga szczególnej
+                        pielęgnacji.
+                        Aby utrzymać młody wygląd skóry okolicy oczu polecamy systematyczne zabiegi mezoterapii z dobrze
+                        dobranym
+                        koktajlem zawierającym odpowiednie witaminy, co-enzymy, aminokwasy i kwas hialuronowy. Dodatkowo
+                        zabiegi
+                        stymulujące skórę do odbudowy takie jak mikronakłuwanie czy zabiegi kosmetologiczne.
+                    </p>
+                </div>
+
+                <div class="box">
+                    <h4 class="anchor-1 boldest">Rekomendowane zabiegi rewitalizacji skóry okolicy oczu:</h4>
+                    <h4 class="anchor-1-1">Mezoterapia nctf 135 ha filorga</h4>
+                    <p>
+                        Preparat NCTF 135 HA., jest to pierwszy preparat stosowany w mezoterapii, który jednocześnie
+                        zastępuje ubytki
+                        endogennego kwasu hialuronowego, oraz odżywia komórki skóry.
+                        Podczas zabiegu dostarczane są składniki, które regenerują komórki skóry, dzięki czemu możliwe
+                        jest wznowienie produkcji kolagenu. To z kolei wpływa na uelastycznienie skóry i nadanie jej
+                        młodego, świeżego wyglądu. Dodatkowo preparat NCTF 135 HA zawierający kwas hialuronowy, chłonie
+                        znaczne ilości wody, przez co stanowi doskonały środek nawilżający dla skóry.
+                        Zaraz po zabiegu mezoterapii skóra może być delikatnie zaczerwieniona. Jest to zabieg z użyciem
+                        igieł, zatem mogą też pojawić się drobne siniaczki. W wyniku reakcji skóry na liczne ukłucia
+                        istnieje możliwość wystąpienia rumienia na skórze lub niewielkiego obrzęku, który powinien
+                        ustąpić do kilku godzin po zabiegu.
+                    </p>
+                </div>
+
+                <div class="box anchor-1-3">
+                    <h4>Nucleofill Eyes Soft Plus- biostymulator</h4>
+                    <p>
+                        Nucleofill Soft Eyes to preparat przeznaczony do biorestrukturyzacji skóry okolicy oka zarówno
+                        górnej jak i dolnej powieki. Zawiera wysoce oczyszczone polinukleotydy pochodzenia naturalnego.
+                        Stworzony jest do poprawy
+                        odżywienia bardzo delikatnej i cienkiej skóry w okolicy oka.
+                        Działanie czynników zewnętrznych, mimika naszej twarzy sprawiają, że obszar ten starzeje się
+                        szybciej porównaniu z innymi partiami twarzy, dlatego wymaga indywidualnego podejścia.
+                    </p>
+
+                    <p> Jak działają polinukleotydy:</p>
+
+                    <p>
+                        Łańcuch polinukleotydów wiąże cząsteczki wody, działa przeciwrodnikowo usuwając rodniki
+                        hydroksylowe, które gromadzą się pod wpływem stresu lub czynników zewnętrznych, takich jak
+                        promieniowanie UV.
+                        Działanie nawilżające i antyoksydacyjne produktu pomaga stworzyć optymalne środowisko dla
+                        wzrostu fibroblastów, a tym samym dla przywrócenia elastyczności tkanek- działanie liftingujące.
+                    </p>
+                </div>
+
+                <div class="box anchor-1-4">
+                    <h4>Wskazania</h4>
+                    <ul>
+                        <li><a href="#">Wiotkość skóry</a></li>
+                        <li><a href="#">Drobne zmarszczki </a></li>
+                        <li><a href="#">Cienie pod oczami</a></li>
+                        <li><a href="#">Obniżenie łuku brwiowego</a></li>
+                        <li><a href="#">Leczenie przed i po zabiegach typu: lifting, blefaroplastyka, laser.</a></li>
+                    </ul>
+
+                </div>
+
+                <div class="box anchor-1-5">
+                    <h4>Osocze bogatopłytkowe</h4>
+                    <p>
+                        Zabiegi z użyciem PRP ( osocza bogatopłytkowego) stosuje się w celu naturalnego odmłodzenia i
+                        regeneracji skóry. W efekcie skóra staje się lepiej ukrwiona i nawilżona, a twarz nabiera
+                        blasku. Terapia PRP przeznaczona jest dla najbardziej świadomych i wymagających pacjentów
+                        rozumiejących istotę biorewitalizacji i przywiązujących wagę do naturalności, zarówno terapii,
+                        jak i efektów jej przeprowadzenia. Zmiana wyglądu skóry po zabiegu wynika bowiem z prawdziwego
+                        odmłodzenia i poprawy jej funkcjonowania (lepsze ukrwienie i większa produkcja białka) – jest
+                        zatem w 100% naturalna (biokompatybilna).
+                        Zabieg nie wywołuje odczynów czy alergii, ponieważ nie wymaga stosowania żadnych sztucznych
+                        substancji. Zabieg z użyciem koncentratu płytek własnej krwi jest materiałem autologicznym
+                        (naszym własnym), co zapewnia bezpieczeństwo i niweluje ryzyko działań ubocznych.
+                    </p>
+                </div>
+
+                <div class="box anchor-2">
+                    <h4 class="boldest">Rekomendowane zabiegi na cienie, obrzęki pod oczami oraz wypełnianie doliny łez
+                    </h4>
+                    <h4>Cienie i obrzęki pod oczami</h4>
+                    <p>
+                        W przypadku występujących pod oczami cieni lub obrzęków stosujemy specjalnie do tego
+                        przeznaczone produkty. Poprawiają one jakość skóry, ale przede wszystkim działają leczniczo na
+                        układ naczyniowy i limfatyczny tej okolicy. Dzięki temu przywracamy prawidłowe funkcjonowanie
+                        krążenia, cienie i obrzęki znikają.
+                    </p>
+                </div>
+
+                <div class="box anchor-2-1">
+                    <h4>Dolina łez</h4>
+                    <p>
+                        Ubytek tkanek na granicy oczodołu i policzka tzw. dolina łez występuje niezależnie od wieku. U
+                        osób młodych jego obecność związana jest z uwarunkowaniami genetycznymi, w późniejszym wieku
+                        pojawia się zaś w przebiegu procesu starzenia.
+                        Oczy wyglądają wtedy na podkrążone, przez co twarz sprawia wrażenie zmęczonej. Doskonałym
+                        rozwiązaniem tego problemu, jest podanie w tę okolicę preparatu kwasu hialuronowego lub
+                        tłuszczu. Zabieg ten niweluje istniejące zagłębienia, odejmuje lat i przynosi odświeżenie
+                        spojrzenia. Po kilku miesiącach od zabiegu dochodzi także do rozjaśnienia cieni pod oczami.
+                    </p>
+                </div>
+
+                <div class="box anchor-2-2">
+                    <h4>TEOSYAL® REDENSITY [II]</h4>
+                    <p>
+                        Redensity [II] to produkt dedykowany korekcji doliny łez oraz cieni pod oczami. Swoją
+                        innowacyjność zawdzięcza niskim właściwością higroskopijnym kwasu hialuronowego, które sprawią,
+                        iż preparat ten nie pęcznieje i bardzo równomiernie rozkłada się w okolicy oka. Ponadto dzięki
+                        optymalnie dostosowanym właściwością mechanicznym wywiera minimalny nacisk na tkanki, co
+                        zapobiega powstawaniu obrzęku tej okolicy. Jest przeznaczony do zabiegów okolic oczu, a także do
+                        delikatnych zmarszczek, zapewniając naturalną, bezpieczną i długotrwałą korekcję.
+                    </p>
+                </div>
+
+                <div class="box anchor-2-3">
+                    <h4>Light eyes</h4>
+                    <p>
+                        Light eyes - innowacyjny koktajl rewitalizujący poprawiający mikrokrążenie oraz elastyczność
+                        skóry, zmniejszający tendencję do gromadzenia się płynów wokół oczu. Light Eye zawiera kwas
+                        hialuronowy , ruszczyk, jagodę,
+                        rozmaryn, witaminę C i heksapeptydy. Dzięki tej wyjątkowej kombinacji, jako jedyny wśród
+                        dostępnych na rynku
+                        preparatów, radzi sobie równocześnie z cieniami pod oczami, opuchlizną i zmarszczkami.
+                        Poza likwidacją cieni pod oczami oraz opuchlizn i zmarszczek, Light Eye przyspiesza
+                        mikrokrążenie, poprawia elastyczność i jędrność oraz chroni przed stresem oksydacyjnym. Zabieg
+                        polega na wprowadzeniu do skóry preparatu za pomocą iniekcji. Przed przeprowadzeniem procedury
+                        zabiegowej, nakłada się znieczulenie.
+                    </p>
+                </div>
+
+                <div class="box anchor-2-4">
+                    <h4>Global eyecon</h4>
+                    <p>
+                        To zabieg korygujący zmarszczki, redukujący obrzęki i cienie pod oczami, poprawiający napięcie
+                        skóry i rozjaśniający przebarwienia w okolicach oczu.
+                        Łączy kilka kategorii terapeutycznych w celu efektywnego działania i osiągnięcia jak najlepszych
+                        rezultatów.
+                        Protokół zabiegowy obejmuje peeling złuszczająco-stymulujący, mezoterapię mikroigłową oraz
+                        pielęgnację
+                        domową dedykowanymi kosmetykami.
+                        Seria składa się z 6 zabiegów: 3 x peeling plus, 3 x koktajl polrewitalizujący.
+                    </p>
+
+                    <p>
+                        To zabieg korygujący zmarszczki, redukujący obrzęki i cienie pod oczami, poprawiający napięcie
+                        skóry i rozjaśniający przebarwienia w okolicach oczu.
+                        Łączy kilka kategorii terapeutycznych w celu efektywnego działania i osiągnięcia jak najlepszych
+                        rezultatów.
+                        Protokół zabiegowy obejmuje peeling złuszczająco-stymulujący, mezoterapię mikroigłową oraz
+                        pielęgnację domową dedykowanymi kosmetykami.
+                    </p>
+
+                    <p>Seria składa się z 6 zabiegów: 3 x peeling plus, 3 x koktajl polrewitalizujący.</p>
+
+                    <p class="italic">Jeżeli wymagane jest zagęszczenie skóry okolicy oczu czy uzupełnienie doliny łez
+                        często potrzebne jest łączenie zabiegów. W zależności od stanu skóry i potrzeb pacjenta lekarz
+                        dostosowuje odpowiedni zestaw zabiegów</p>
+                </div>
+
+                <div class="box anchor-3">
+                    <h4 class="boldest">Rekomendowane zabiegi na zmarszczki mimiczne okolicy oczu i kurzych łapek:</h4>
+                    <ul>
+                        <li><a href="#">Botox okolica oczu/a></li>
+                        <li><a href="#">Mezobotox/a></li>
+
+                    </ul>
+                </div>
+
+                <div class="box anchor-3-1">
+                    <h4>Przeciwskazania do zabiegów wokół oczu</h4>
+                    <ul>
+                        <li><a href="#">ciąża i laktacja</a></li>
+                        <li><a href="#">choroby autoimmunologiczne </a></li>
+                        <li><a href="#">aktywne infekcje wirusowe (np. opryszczka) i bakteryjne w obrębie okolicy
+                                poddawanej zabiegowi</a></li>
+                        <li><a href="#">obrzęk okolicy oka</a></li>
+                        <li><a href="#">przepuklina poduszeczki tłuszczowej</a></li>
+                        <li><a href="#">skłonność do obrzęków</a></li>
+                    </ul>
+                </div>
+
+                <div class="box anchor-3-2">
+                    <h4>Postępowanie pozabiegowe</h4>
+                    <ul>
+                        <li><a href="#">nie należy masować ani ugniatać okolicy zabiegowej bez </a></li>
+                        <li><a href="#">wyraźnych wskazań lekarza</a></li>
+                        <li><a href="#">należy unikać sauny i solarium przez okres 2 tygodni</a></li>
+                        <li><a href="#">należy unikać ekspozycji słonecznej przez okres 2 tygodni</a></li>
+                        <li><a href="#">należy stosować ochrona przeciwsłoneczna krem z filtrem +50 </a></li>
+                        <li><a href="#">przez okres 2 tygodni</a></li>
+                    </ul>
+                </div>
+
+                <div class="box anchor-3-3">
+                    <h4>Rekonwalescencja</h4>
+                    <p>
+                        W miejscu po zabiegu może być widoczne zaczerwienienie i obrzęk, które ustępuje od kilku godzin
+                        do 2 dni.
+                        Ponadto w niektórych przypadkach, może pojawić się zasinienie spowodowane uszkodzeniem naczynia
+                        krwionośnego, utrzymujące się do 7-10 dni.
+
+                    </p>
+                </div>
+
+                <div class="btn-box">
+                    <a href="./estetyka-modelowanie-ust-kwasem-hialuronowym.html"
+                        class="btn btn-4 left wow fadeInRighBig" data-wow-delay="0.2s">Poprzednia usługa</a>
+                    <a href="./estetyka-mezoterapia.html" class="btn btn-4 right wow fadeInRighBig"
+                        data-wow-delay="0.2s">Kolejna usługa</a>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- BANNER -->
+        <div class="banner">
+
+            <div class="container-wrapper">
+
+                <div class="banner-wrapper">
+
+                    <p class="mb20">Zarezerwuj wizytę:</p>
+                    <a class="tel" href="tel:+48501497555">+48 501 497 555</a>
+                    <a class="mail" href="mailto:info@endodentmedestetica.pl">info@endodentmedestetica.pl</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+
+            <div class="footer-wrapper">
+
+                <div class="column">
+
+                    <div class="footer__logo">
+                        <img src="./assets/img/logo-footer.png" alt="frontpage-1">
+                    </div>
+
+                    <div class="footer__copyright">
+                        © EndoDent&MedEstetica 2021
+                    </div>
+
+                </div>
+
+                <div class="column order-1">
+
+                    <ul class="footer__menu">
+                        <li><a href="./estetyka.html">Usługi</a></li>
+                        <li><a href="./galeria.html">Galeria</a></li>
+                        <li><a href="./estetyka-o-mnie.html">O mnie</a></li>
+                        <li><a href="./estetyka-kontakty.html">Kontakt</a></li>
+                    </ul>
+
+                </div>
+
+                <div class="column">
+
+                    <div class="footer__fast-contact">
+
+                        <a target="_blank" href="tel:+48501497555">Tel. +48 501 497 555</a>
+                        <a target="_blank" href="mailto:info@endodentmedestetica.pl">info@endodentmedestetica.pl</a>
+                        <p>ul. Bodzowska 19, 30-379 Kraków</p>
+
+                    </div>
+
+                </div>
+
+                <div class="column order-2">
+
+                    <div class="footer__fast-contact">
+
+                        <p class="mb10">Godziny otwarcia:</p>
+                        <p class="mb20">Pn - Pt 9:00 - 17:00</p>
+
+                        <ul class="footer__social mb20">
+                            <li><a href="#"><i class="flaticon-facebook"></i></a></li>
+                            <li><a href="#"><i class="flaticon-youtube"></i></a></li>
+                            <li><a href="#"><i class="flaticon-instagram"></i></a></li>
+                        </ul>
+
+                        <p>Wykonanie:<img src="./assets/img/evada.png" alt=""></p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <script src="./assets/js/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.3.1/dist/lazyload.min.js"></script>
+    <script src="./assets/js/wow.min.js"></script>
+    <script src="./assets/js/init.js?v=<?php echo SITE_VERSION; ?>"></script>
+
+    <script>
+        var lazyLoadInstance = new LazyLoad({});
+    </script>
+
+</body>
+
+</html>

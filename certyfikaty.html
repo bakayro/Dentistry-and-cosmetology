@@ -1,0 +1,150 @@
+<?php
+
+	ob_start();
+	session_start();
+	
+	include './config.php';
+	include './functions.php';
+	
+	$IS_DEFINED = true;
+
+?>
+
+
+<!DOCTYPE html>
+<html lang="pl-PL">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<title>Certyfikaty</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="author" content="Grupa EVADA">
+
+	<link rel="apple-touch-icon" sizes="180x180" href="./assets/img/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="./assets/img/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="./assets/img/favicon/favicon-16x16.png">
+	<link rel="manifest" href="./assets/img/favicon/site.webmanifest">
+
+	<link rel="stylesheet" type="text/css" href="./assets/css/font/flaticon.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+	<link href="./assets/css/animate.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+		rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+	<link href="./assets/css/lightgallery.css" rel="stylesheet">
+	<link href="./assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+	<?php include "./inc/header.php"; ?>
+
+	<!-- MAIN -->
+	<main>
+		<!-- certificates -->
+		<section class="certyfikate">
+			<div class="container-wrapper">
+				
+				<div class="title-wrapper mb20 wow fadeInUp" data-wow-delay="0.1s">
+					<span class="label -right wow fadeInDown" data-wow-delay="0s">zdrowy uśmiech to pierwszy krok do suksesu</span>
+					<h3 class="mb20">Certyfikaty</h3>
+				</div>
+			
+				<div id="cert" class="gallery-wrapper">
+					<a class="gallery-container w-1 h-2" href="/assets/img/certificates/certificate-1.webp">
+						<img src="/assets/img/certificates/certificate-1.webp" alt="certificate nr1"/>
+					</a>
+					
+					<a class="gallery-container w-1 h-2" href="/assets/img/certificates/certificate-2.webp">
+						<img src="/assets/img/certificates/certificate-2.webp" alt="certificate nr2"/>
+					</a>
+					
+					<a class="gallery-container w-1 h-2" href="/assets/img/certificates/certificate-3.webp">
+						<img src="/assets/img/certificates/certificate-3.webp" alt="certificate nr3"/>
+					</a>
+					
+					
+					<a class="gallery-container w-1 h-2" href="/assets/img/certificates/certificate-6.webp">
+						<img src="/assets/img/certificates/certificate-6.webp" alt="certificate nr6"/>
+					</a>
+					
+					<a class="gallery-container w-1 h-2" href="/assets/img/certificates/certificate-7.webp">
+						<img src="/assets/img/certificates/certificate-7.webp" alt="certificate nr7"/>
+					</a>
+					
+					<a class="gallery-container w-1 h-2" href="/assets/img/certificates/certificate-8.webp">
+						<img src="/assets/img/certificates/certificate-8.webp" alt="certificate nr8"/>
+					</a>
+					
+					<a class="gallery-container w-1 h-2" href="/assets/img/certificates/certificate-9.webp">
+						<img src="/assets/img/certificates/certificate-9.webp" alt="certificate nr9"/>
+					</a>
+					
+					<a class="gallery-container w-1 h-2" href="/assets/img/certificates/certificate-12.webp">
+						<img src="/assets/img/certificates/certificate-12.webp" alt="certificate nr12"/>
+					</a>
+					
+					<a class="gallery-container w-1 h-1" href="/assets/img/certificates/certificate-4.webp">
+						<img src="/assets/img/certificates/certificate-4.webp" alt="certificate nr4"/>
+					</a>
+					
+					<a class="gallery-container w-1 h-1" href="/assets/img/certificates/certificate-5.webp">
+						<img src="/assets/img/certificates/certificate-5.webp" alt="certificate nr5"/>
+					</a>
+					
+					<a class="gallery-container w-1 h-1" href="/assets/img/certificates/certificate-10.webp">
+						<img src="/assets/img/certificates/certificate-10.webp" alt="certificate nr10"/>
+					</a>
+					
+					<a class="gallery-container w-1 h-1" href="/assets/img/certificates/certificate-11.webp">
+						<img src="/assets/img/certificates/certificate-11.webp" alt="certificate nr11"/>
+					</a>
+					
+					<a class="gallery-container w-1 h-2" href="/assets/img/certificates/certificate-13.webp">
+						<img src="/assets/img/certificates/certificate-13.webp" alt="certificate nr13"/>
+					</a>
+					
+					<a class="gallery-container w-1 h-2" href="/assets/img/certificates/certificate-14.webp">
+						<img src="/assets/img/certificates/certificate-14.webp" alt="certificate nr14"/>
+					</a>
+					
+					<a class="gallery-container w-1 h-2" href="/assets/img/certificates/certificate-15.webp">
+						<img src="/assets/img/certificates/certificate-15.webp" alt="certificate nr15"/>
+					</a>
+					
+				</div>
+				
+			</div>
+		</section>
+
+	</main>
+
+	<?php include "./inc/footer.php"; ?>
+
+	<script src="./assets/js/jquery-3.6.0.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+	integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+	crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+	<!-- <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.3.1/dist/lazyload.min.js"></script> -->
+	<script src="./assets/js/lightgallery.min.js"></script>
+	<script src="./assets/js/wow.min.js"></script>
+	<script src="./assets/js/init.js?v=<?php echo SITE_VERSION; ?>"></script>
+	
+	<script>
+		lightGallery(document.getElementById('cert'), {
+			thumbnail: false,
+		});
+	</script>
+
+</body>
+
+</html>
